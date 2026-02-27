@@ -32,8 +32,10 @@ Then:
 
 1. Open `http://localhost:3000` immediately.
 2. In DevTools Console, enable **Preserve log**.
-3. Wait for deploy message (~10s).
-4. Click **Other Page** (links use `prefetch={false}` so this is a fresh request).
+    <img width="828" height="182" alt="Screenshot 2026-02-26 at 4 31 54 PM" src="https://github.com/user-attachments/assets/e3249208-5ea9-4f93-b9ca-1a85d48a312c" />
+
+4. Wait for deploy message (~10s).
+5. Click **Other Page** (links use `prefetch={false}` so this is a fresh request).
 
 Expected result:
 
